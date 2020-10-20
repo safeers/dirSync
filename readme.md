@@ -33,16 +33,16 @@ $ python dirsync.py <src folder> <dest folder>
 #### Filters
 | argument       | function     |
 | :------------- | :----------: |
-|  -s, --strict | strict mode |
-|  -b, --bidirect | bidirectional or sync mode | 
-|  --min_size | files with size above min size is selected (in MB) |
-|  --min_size | files with size below max size is selected (in MB) | 
-|  --older_than | files modified before provided date (format=dd/mm/yyyy) |
-|  --newer_than | files modified after provided date (format=dd/mm/yyyy) | 
-|  --exc_dir | files in provided directories will be excluded |
-|  --inc_dir | files only in provided directories will be included | 
-|  --exc_ext | files with provided extensions will be excluded |
-|  --inc_dir | files with provided extensions will be included | 
+|  `-s, --strict` | strict mode |
+|  `-b, --bidirect` | bidirectional or sync mode | 
+|  `--min_size` | files with size above min size is selected (in MB) |
+|  `--min_size` | files with size below max size is selected (in MB) | 
+|  `--older_than` | files modified before provided date (format=dd/mm/yyyy) |
+|  `--newer_than` | files modified after provided date (format=dd/mm/yyyy) | 
+|  `--exc_dir` | files in provided directories will be excluded |
+|  `--inc_dir` | files only in provided directories will be included | 
+|  `--exc_ext` | files with provided extensions will be excluded |
+|  `--inc_dir` | files with provided extensions will be included | 
 
 example usage with filters
 ```bash
