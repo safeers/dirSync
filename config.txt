@@ -1,0 +1,7 @@
+[config]
+max_size = 1000
+min_size = 0
+exc_ext = 
+inc_ext = 
+exc_dir = 
+inc_dir = 
